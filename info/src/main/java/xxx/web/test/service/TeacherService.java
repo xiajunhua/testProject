@@ -20,7 +20,8 @@ public class TeacherService {
 	public List<Teacher> getStudentList(){
 		return this.teacherDAO.getTeacherList();
 	}
-	public Teacher getStudentByTeaNo(Integer teaNo){
+	public Teacher getTeacherByTeaNo(Integer teaNo){
 		return null;
+
 	}
 }
