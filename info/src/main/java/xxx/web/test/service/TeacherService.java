@@ -18,6 +18,9 @@ public class TeacherService {
 	}
 
 	public List<Teacher> getStudentList(){
-		return this.teacherDAO.getStudentList();
+		return this.teacherDAO.getTeacherList();
+	}
+	public Teacher getStudentByTeaNo(Integer teaNo){
+		return null;
 	}
 }
