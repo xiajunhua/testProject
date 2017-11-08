@@ -7,7 +7,7 @@ import xxx.web.test.bean.Teacher;
 
 public class TeacherDAO {
 
-	public List<Teacher> getStudentList(){
+	public List<Teacher> getTeacherList(){
 		return null;
 	}
 	public void addTea(Teacher tea){
