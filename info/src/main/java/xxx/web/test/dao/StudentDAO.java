@@ -9,4 +9,7 @@ public class StudentDAO {
 	public List<Student> getStudentList(){
 		return null;
 	}
+	public void addStu(Student stu){
+		
+	}
 }
