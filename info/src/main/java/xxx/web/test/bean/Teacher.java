@@ -8,6 +8,14 @@ public class Teacher {
 	private String phone;
 	private String address;
 	private Integer age;
+	private Integer stuNo;
+	
+	public Integer getStuNo() {
+		return stuNo;
+	}
+	public void setStuNo(Integer stuNo) {
+		this.stuNo = stuNo;
+	}
 	public Integer getTeaNo() {
 		return teaNo;
 	}
