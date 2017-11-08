@@ -12,4 +12,10 @@ public class StudentDAO {
 	public void addStu(Student stu){
 		
 	}
+	public void updateStu(Student stu){
+		
+	}
+	public Student getStudentByStuNo(){
+		return null;
+	}
 }
